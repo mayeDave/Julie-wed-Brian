@@ -61,7 +61,7 @@ header {
 }
 
 .para {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #8A8A8B;
     line-height: 25px;
@@ -276,4 +276,69 @@ header {
 
 .wedding-box p {
     padding-left: 20px;
+}
+
+/* people section */
+
+#people {
+    padding: 120px 200px;
+    background-color: #fff;
+}
+
+#people-body {
+    padding-top: 40px;
+}
+
+#people-body-left {
+    width: 30%;
+    margin-bottom: 300px;
+}
+
+#people-body-right {
+    width: 70%;
+}
+
+.groomsmen-img {
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0 50px;
+}
+
+.groomsmen-text {
+    width: 50%;
+    
+}
+
+.groom-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    border: none;
+}
+
+.people-side h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+}
+
+.active-groom {
+    color: #F5590E;
+    border-bottom: 1px solid #8A8A8B !important;
+    border-right: 1px dashed #F5590E !important;
+    padding: 20px 0;
+    padding-right: 150px;
+}
+
+.active-bride {
+    padding: 20px 0;
+    padding-right: 160px;
+    border-right: 1px dashed #8a8a8b !important;
+
+}
+
+.people-side {
+    background-color: #FFF;
+    border: none;
 }
