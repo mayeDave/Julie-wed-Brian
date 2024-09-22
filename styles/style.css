@@ -13,6 +13,8 @@
     align-items: center;
 }
 
+/* header section */
+
 header {
     padding: 20px 220px;
     height: 80px;
@@ -53,3 +55,98 @@ header {
     font-weight: 700;
     color: #F5590E;
 }
+
+/* home page */
+
+#home-box {
+    margin: 0 200px;
+    height: 630px;
+    background-color: #D9D8D6;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.background-img {
+    background-image: url('../images/couple-hugging-laughing-near-wall.png');
+    background-size: 100%;
+}
+
+#home-left-box {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#home-left-box h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #CC8A7F;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#home-left-box h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+#home-left-box p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#home-left-box .verified {
+    color: green;  
+}
+
+.button {
+    background-color: #CC8A7F;
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+    padding: 15px 23px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#wedding-date h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #F5590E;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+}
+
+#wedding-date p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    background-color: #FFF;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 12px 12px;
+}
+
+#home-right-box {
+    padding-right: 160px;
+    padding-top: 420px;
+}
+
