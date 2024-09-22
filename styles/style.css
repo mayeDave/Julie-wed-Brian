@@ -187,11 +187,10 @@ header {
 
 #our-story {
     padding: 100px 200px;
-    height: 800px;
 }
 
 #our-story-body {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .story-img {
@@ -243,4 +242,38 @@ header {
 
 /* the wedding */
 
+#the-wedding {
+    padding: 120px 200px;
+    background-color: #F9F9F9;
+}
 
+#the-wedding-body {
+    padding-top: 40px;
+}
+
+.wedding-box {
+    width: 32%;
+}
+
+.wedding-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+    border: none;
+}
+
+.wedding-box h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+#location {
+    padding-bottom: 40px;
+}
+
+.wedding-box p {
+    padding-left: 20px;
+}
