@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* font-family: "Amatic SC", sans-serif; */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 20px 220px;
+    height: 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+/* CC8A7Fpeach */
+
+/* 8A8A8Bgray */
+
+.head-list {
+ list-style: none;
+ padding: 0 20px;
+ font-size: 13px;
+ 
+} 
+
+
+
+.head-list a {
+    text-decoration: none;
+    color: #8A8A8B;
+}
+
+#home-link {
+    color: #CC8A7F;
+}
+
+.head-list a:hover {
+    color: #CC8A7F;
+}
+
+#logo {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F5590E;
+}
