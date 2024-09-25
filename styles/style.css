@@ -334,11 +334,31 @@ header {
 .active-bride {
     padding: 20px 0;
     padding-right: 160px;
-    border-right: 1px dashed #8a8a8b !important;
 
 }
 
 .people-side {
     background-color: #FFF;
     border: none;
+}
+
+#gallery-body {
+    padding-top: 40px;
+}
+#gallery-body img {
+    border-radius: 18px;
+}
+#gallery {
+    padding: 120px 200px;
+    background-color: #F9F9F9;
+}
+
+.img-body {
+    width: 32%;
+    margin: 0 13px;
+}
+
+.double-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
