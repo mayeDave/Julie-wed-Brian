@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* font-family: "Amatic SC", sans-serif; */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clumsy {
+    justify-content: initial;
+}
+
+/* header section */
+
+header {
+    padding: 20px 220px;
+    height: 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+/* CC8A7Fpeach */
+
+/* 8A8A8Bgray */
+
+.head-list {
+ list-style: none;
+ padding: 0 20px;
+ font-size: 13px;
+ 
+} 
+
+
+
+.head-list a {
+    text-decoration: none;
+    color: #8A8A8B;
+}
+
+#home-link {
+    color: #CC8A7F;
+}
+
+.head-list a:hover {
+    color: #CC8A7F;
+}
+
+#logo {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F5590E;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8A8A8B;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+/* home page */
+
+#home-box {
+    margin: 0 200px;
+    height: 630px;
+    background-color: #D9D8D6;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.background-img {
+    background-image: url('../images/couple-hugging-laughing-near-wall.png');
+    background-size: 100%;
+}
+
+#home-left-box {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#home-left-box h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #CC8A7F;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#home-left-box h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+#home-left-box p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#home-left-box .verified {
+    color: green;  
+}
+
+.button {
+    background-color: #CC8A7F;
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+    padding: 15px 23px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#wedding-date h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #F5590E;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+}
+
+#wedding-date p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    background-color: #FFF;
+    height: 55px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 12px 12px;
+}
+
+#home-right-box {
+    padding-right: 160px;
+    padding-top: 420px;
+}
+
+.page-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-head h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #F0C237;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.page-head p {
+    font-size: 25px;
+    color: #FD5600;
+}
+
+/* our-story */
+
+#our-story {
+    padding: 100px 200px;
+}
+
+#our-story-body {
+    padding-top: 40px;
+}
+
+.story-img {
+    width: 100%;
+    height: 430px;
+    border-radius: 12px;
+}
+
+#bride-box, #groom-box {
+    width: 50%;
+}
+
+#bride-img, #groom-img {
+    width: 45%;
+}
+
+.story-text {
+    width: 55%;
+    padding: 40px;
+}
+
+.bride-groom {
+    padding-bottom: 20px;
+}
+
+.bride-groom h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    padding-right: 10px;
+    
+}
+
+.bride-groom p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0C237;
+    margin-right: 10px;
+    margin-top: 130px;
+    border-radius: 50%;
+}
+
+/* the wedding */
+
+#the-wedding {
+    padding: 120px 200px;
+    background-color: #F9F9F9;
+}
+
+#the-wedding-body {
+    padding-top: 40px;
+}
+
+.wedding-box {
+    width: 32%;
+}
+
+.wedding-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+    border: none;
+}
+
+.wedding-box h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+#location {
+    padding-bottom: 40px;
+}
+
+.wedding-box p {
+    padding-left: 20px;
+}
+
+/* people section */
+
+#people {
+    padding: 120px 200px;
+    background-color: #fff;
+}
+
+#people-body {
+    padding-top: 40px;
+}
+
+#people-body-left {
+    width: 30%;
+    margin-bottom: 300px;
+}
+
+#people-body-right {
+    width: 70%;
+}
+
+.groomsmen-img {
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0 50px;
+}
+
+.groomsmen-text {
+    width: 50%;
+    
+}
+
+.groom-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    border: none;
+}
+
+.people-side h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    border: none;
+}
+
+.active-groom {
+    color: #F5590E;
+    border-bottom: 1px solid #8A8A8B !important;
+    border-right: 1px dashed #F5590E !important;
+    padding: 20px 0;
+    padding-right: 150px;
+}
+
+.active-bride {
+    padding: 20px 0;
+    padding-right: 160px;
+
+}
+
+.people-side {
+    background-color: #FFF;
+    border: none;
+}
+
+#gallery-body {
+    padding-top: 40px;
+}
+#gallery-body img {
+    border-radius: 18px;
+}
+#gallery {
+    padding: 120px 200px;
+    background-color: #F9F9F9;
+}
+
+.img-body {
+    width: 32%;
+    margin: 0 13px;
+}
+
+.double-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
